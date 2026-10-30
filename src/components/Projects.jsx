@@ -18,7 +18,7 @@ export default function Projects() {
         {list.map((p) => (
           <div key={p.t} className={`group ${Card}`}>
             <div className="relative mb-5 flex h-44 items-center justify-center overflow-hidden rounded-xl bg-gradient-to-br from-green-900 to-[#0a1a0f] text-xs tracking-widest text-green-700">
-              {p.img ? <img src={p.img} alt={p.t} className="h-full w-full object-cover" /> : "[SCREENSHOT]"}
+              {p.img ? <img src={p.img} alt={p.t} className="h-full w-full object-cover" /> : ""}
               <div className="absolute inset-0 flex items-center justify-center bg-green-950/80 opacity-0 transition group-hover:opacity-100">
                 <a href={p.link} target="_blank" rel="noreferrer" className={`${Btn} !px-6 !py-3 text-sm`}>View Project</a>
               </div>
