@@ -4,3 +4,12 @@
 
 html { scroll-behavior: smooth; }
 body { margin: 0; background: #050d08; }
+
+/* scrollbar hide, scroll phir bhi chalta rahega */
+html {
+  -ms-overflow-style: none;   /* Edge purane */
+  scrollbar-width: none;      /* Firefox */
+}
+html::-webkit-scrollbar {
+  display: none;              /* Chrome, Safari, Edge */
+}

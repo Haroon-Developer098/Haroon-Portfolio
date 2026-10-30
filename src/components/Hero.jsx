@@ -41,6 +41,7 @@ export default function Hero() {
         <div className="mt-12 flex gap-4">
           {SOCIALS.map(({ Icon, href, label }) => (
             <a
+            target="_blank"
               key={label}
               href={href}
               aria-label={label}

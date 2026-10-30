@@ -21,7 +21,7 @@ export default function Contact() {
             <li className="flex items-center gap-3"><Mail size={18} className="text-[#8bc34a]" />{CONTACT.email}</li>
             <li className="flex items-center gap-3"><Phone size={18} className="text-[#8bc34a]" />{CONTACT.phone}</li>
             <li className="flex items-center gap-3"><MessageCircle size={18} className="text-[#8bc34a]" />
-              <a href={`https://wa.me/${CONTACT.whatsapp}`} target="_blank" rel="noreferrer" className="hover:text-[#8bc34a]">WhatsApp</a>
+              <a href={`https://wa.me/${CONTACT.whatsapp}?text=Hi%20Haroon%2C%20I%20want%20to%20discuss%20a%20project`} target="_blank" rel="noreferrer" className="hover:text-[#8bc34a]">WhatsApp</a>
             </li>
           </ul>
         </div>

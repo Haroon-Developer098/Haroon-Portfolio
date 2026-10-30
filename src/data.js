@@ -1,4 +1,5 @@
 import { Instagram, Linkedin, Github } from "lucide-react";
+import hms from "./assets/hms.jpg"
 
 // Yahan apna content badlo
 export const NAV = ["Home", "About", "Skills", "Portfolio", "Contact"];
@@ -25,7 +26,7 @@ export const SERVICES = [
 ];
 
 export const PROJECTS = [
-  { t: "Hospital Management System", d: "Portal, pharmacy and billing.", tags: ["React", "Tailwind"], cat: "React", img: "", link: "#" },
+  { t: "Hospital Management System", d: "Portal, pharmacy and billing.", tags: ["React", "Tailwind"], cat: "React", img: hms, link: "https://hms-pk.com/" },
   { t: "Watch and Wallet Store", d: "Cart, wishlist, WhatsApp ordering.", tags: ["React", "E-commerce"], cat: "E-commerce", img: "", link: "#" },
   { t: "Onboarding Flow", d: "Facility picker built from Figma.", tags: ["Next.js", "Tailwind"], cat: "Next.js", img: "", link: "#" },
 ];
@@ -38,9 +39,9 @@ export const STEPS = [
   ["Deliver", "Launch and support."],
 ];
 
-export const CONTACT = { email: "your@email.com", phone: "+92 000 0000000", whatsapp: "920000000000" };
+export const CONTACT = { email: "shahidharoon227@gmail.com", phone: "+92 320 4116693", whatsapp: "923204116693" };
 export const SOCIALS = [
-  { Icon: Github, href: "#", label: "GitHub" },
-  { Icon: Instagram, href: "#", label: "Instagram" },
+  { Icon: Github, href: "https://github.com/Haroon-Developer098", label: "GitHub" },
+  { Icon: Instagram, href: "https://www.instagram.com/irx_aesthetic/", label: "Instagram" },
   { Icon: Linkedin, href: "#", label: "LinkedIn" },
 ];
