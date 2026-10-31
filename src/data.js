@@ -2,7 +2,7 @@ import { Instagram, Linkedin, Github } from "lucide-react";
 import hms from "./assets/hms.jpg"
 
 // Yahan apna content badlo
-export const NAV = ["Home", "About", "Skills", "Portfolio", "Contact"];
+export const NAV = ["Home", "About", "Skills", "Projects", "Contact"];
 
 export const STATS = [
   { n: "10+", l: "Projects" },

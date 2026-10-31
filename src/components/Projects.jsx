@@ -6,7 +6,7 @@ export default function Projects() {
   const [f, setF] = useState("All");
   const list = PROJECTS.filter((p) => f === "All" || p.cat === f);
   return (
-    <Section id="Projects" ghost="WORK" title="Projects" sub="Selected projects.">
+    <Section id="projects" ghost="WORK" title="Projects" sub="Selected projects.">
       <div className="mb-8 flex flex-wrap gap-3">
         {FILTERS.map((x) => (
           <button key={x} onClick={() => setF(x)} className={`rounded-full border px-5 py-2 text-sm transition ${f === x ? "border-[#7cb342] bg-[#7cb342] text-[#0a1a0f]" : "border-green-800/60 text-[#a9bfa4] hover:border-[#8bc34a]"}`}>
