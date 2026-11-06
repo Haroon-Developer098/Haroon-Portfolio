@@ -19,6 +19,24 @@ export const GradText = "bg-gradient-to-r from-white to-[#c5e88a] bg-clip-text t
 export const Btn = "inline-block rounded-full bg-gradient-to-b from-[#9ccc3c] to-[#6fa32c] px-9 py-4 font-semibold text-[#0a1a0f] transition hover:brightness-110 hover:shadow-[0_0_24px_rgba(139,195,74,.45)]";
 export const Card = "rounded-2xl border border-green-800/40 bg-green-950/40 p-7";
 
+export function Button3D({ children, className = "", href, ...props }) {
+  const classes = `${Btn} ${className}`.trim();
+
+  if (href) {
+    return (
+      <a href={href} className={classes} {...props}>
+        {children}
+      </a>
+    );
+  }
+
+  return (
+    <button type="button" className={classes} {...props}>
+      {children}
+    </button>
+  );
+}
+
 export function Section({ id, ghost, title, sub, children }) {
   return (
     <section id={id} className="relative mx-auto max-w-6xl px-6 py-24">

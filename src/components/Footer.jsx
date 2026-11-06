@@ -14,7 +14,7 @@ export default function Footer() {
             <a key={label} href={href} aria-label={label} target="_blank" className="flex h-9 w-9 items-center justify-center rounded-full border border-green-700/60 hover:border-[#8bc34a]"><Icon size={16} /></a>
           ))}
         </div>
-        <p className="w-full text-center text-sm text-[#6f866a] md:w-auto">© {new Date().getFullYear()} Haroon. All rights reserved.</p>
+        <p className="w-full text-center text-sm text-[#6f866a] md:w-auto -ml-">© {new Date().getFullYear()} Haroon. All rights reserved.</p>
       </div>
     </footer>
   );
